@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A5368F1E4A6F69006775CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A5368E1E4A6F69006775CB /* AppDelegate.swift */; };
+		64A536911E4A6F69006775CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A536901E4A6F69006775CB /* ViewController.swift */; };
+		64A536931E4A6F69006775CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A536921E4A6F69006775CB /* Assets.xcassets */; };
+		64A536961E4A6F69006775CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A536941E4A6F69006775CB /* Main.storyboard */; };
+		64A536A11E4A6F69006775CB /* Kext_InstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A536A01E4A6F69006775CB /* Kext_InstallerTests.swift */; };
+		64A536AC1E4A6F69006775CB /* Kext_InstallerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A536AB1E4A6F69006775CB /* Kext_InstallerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A5369D1E4A6F69006775CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A536831E4A6F69006775CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A5368A1E4A6F69006775CB;
+			remoteInfo = "Kext Installer";
+		};
+		64A536A81E4A6F69006775CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A536831E4A6F69006775CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A5368A1E4A6F69006775CB;
+			remoteInfo = "Kext Installer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64A5368B1E4A6F69006775CB /* Kext Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kext Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A5368E1E4A6F69006775CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A536901E4A6F69006775CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64A536921E4A6F69006775CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A536951E4A6F69006775CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A536971E4A6F69006775CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A5369C1E4A6F69006775CB /* Kext InstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kext InstallerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A536A01E4A6F69006775CB /* Kext_InstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kext_InstallerTests.swift; sourceTree = "<group>"; };
+		64A536A21E4A6F69006775CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A536A71E4A6F69006775CB /* Kext InstallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kext InstallerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A536AB1E4A6F69006775CB /* Kext_InstallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kext_InstallerUITests.swift; sourceTree = "<group>"; };
+		64A536AD1E4A6F69006775CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A536881E4A6F69006775CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A536991E4A6F69006775CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A536A41E4A6F69006775CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A536821E4A6F69006775CB = {
+			isa = PBXGroup;
+			children = (
+				64A5368D1E4A6F69006775CB /* Kext Installer */,
+				64A5369F1E4A6F69006775CB /* Kext InstallerTests */,
+				64A536AA1E4A6F69006775CB /* Kext InstallerUITests */,
+				64A5368C1E4A6F69006775CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A5368C1E4A6F69006775CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A5368B1E4A6F69006775CB /* Kext Installer.app */,
+				64A5369C1E4A6F69006775CB /* Kext InstallerTests.xctest */,
+				64A536A71E4A6F69006775CB /* Kext InstallerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A5368D1E4A6F69006775CB /* Kext Installer */ = {
+			isa = PBXGroup;
+			children = (
+				64A5368E1E4A6F69006775CB /* AppDelegate.swift */,
+				64A536901E4A6F69006775CB /* ViewController.swift */,
+				64A536921E4A6F69006775CB /* Assets.xcassets */,
+				64A536941E4A6F69006775CB /* Main.storyboard */,
+				64A536971E4A6F69006775CB /* Info.plist */,
+			);
+			path = "Kext Installer";
+			sourceTree = "<group>";
+		};
+		64A5369F1E4A6F69006775CB /* Kext InstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64A536A01E4A6F69006775CB /* Kext_InstallerTests.swift */,
+				64A536A21E4A6F69006775CB /* Info.plist */,
+			);
+			path = "Kext InstallerTests";
+			sourceTree = "<group>";
+		};
+		64A536AA1E4A6F69006775CB /* Kext InstallerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64A536AB1E4A6F69006775CB /* Kext_InstallerUITests.swift */,
+				64A536AD1E4A6F69006775CB /* Info.plist */,
+			);
+			path = "Kext InstallerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A5368A1E4A6F69006775CB /* Kext Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A536B01E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext Installer" */;
+			buildPhases = (
+				64A536871E4A6F69006775CB /* Sources */,
+				64A536881E4A6F69006775CB /* Frameworks */,
+				64A536891E4A6F69006775CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kext Installer";
+			productName = "Kext Installer";
+			productReference = 64A5368B1E4A6F69006775CB /* Kext Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A5369B1E4A6F69006775CB /* Kext InstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A536B31E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerTests" */;
+			buildPhases = (
+				64A536981E4A6F69006775CB /* Sources */,
+				64A536991E4A6F69006775CB /* Frameworks */,
+				64A5369A1E4A6F69006775CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A5369E1E4A6F69006775CB /* PBXTargetDependency */,
+			);
+			name = "Kext InstallerTests";
+			productName = "Kext InstallerTests";
+			productReference = 64A5369C1E4A6F69006775CB /* Kext InstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64A536A61E4A6F69006775CB /* Kext InstallerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A536B61E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerUITests" */;
+			buildPhases = (
+				64A536A31E4A6F69006775CB /* Sources */,
+				64A536A41E4A6F69006775CB /* Frameworks */,
+				64A536A51E4A6F69006775CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A536A91E4A6F69006775CB /* PBXTargetDependency */,
+			);
+			name = "Kext InstallerUITests";
+			productName = "Kext InstallerUITests";
+			productReference = 64A536A71E4A6F69006775CB /* Kext InstallerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A536831E4A6F69006775CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Daniele;
+				TargetAttributes = {
+					64A5368A1E4A6F69006775CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4ELDR2G96E;
+						ProvisioningStyle = Automatic;
+					};
+					64A5369B1E4A6F69006775CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4ELDR2G96E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64A5368A1E4A6F69006775CB;
+					};
+					64A536A61E4A6F69006775CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4ELDR2G96E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64A5368A1E4A6F69006775CB;
+					};
+				};
+			};
+			buildConfigurationList = 64A536861E4A6F69006775CB /* Build configuration list for PBXProject "Kext Installer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A536821E4A6F69006775CB;
+			productRefGroup = 64A5368C1E4A6F69006775CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A5368A1E4A6F69006775CB /* Kext Installer */,
+				64A5369B1E4A6F69006775CB /* Kext InstallerTests */,
+				64A536A61E4A6F69006775CB /* Kext InstallerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A536891E4A6F69006775CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A536931E4A6F69006775CB /* Assets.xcassets in Resources */,
+				64A536961E4A6F69006775CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A5369A1E4A6F69006775CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A536A51E4A6F69006775CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A536871E4A6F69006775CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A536911E4A6F69006775CB /* ViewController.swift in Sources */,
+				64A5368F1E4A6F69006775CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A536981E4A6F69006775CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A536A11E4A6F69006775CB /* Kext_InstallerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A536A31E4A6F69006775CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A536AC1E4A6F69006775CB /* Kext_InstallerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64A5369E1E4A6F69006775CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A5368A1E4A6F69006775CB /* Kext Installer */;
+			targetProxy = 64A5369D1E4A6F69006775CB /* PBXContainerItemProxy */;
+		};
+		64A536A91E4A6F69006775CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A5368A1E4A6F69006775CB /* Kext Installer */;
+			targetProxy = 64A536A81E4A6F69006775CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A536941E4A6F69006775CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A536951E4A6F69006775CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A536AE1E4A6F69006775CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64A536AF1E4A6F69006775CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		64A536B11E4A6F69006775CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext Installer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-Installer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64A536B21E4A6F69006775CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext Installer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-Installer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		64A536B41E4A6F69006775CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext InstallerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-InstallerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kext Installer.app/Contents/MacOS/Kext Installer";
+			};
+			name = Debug;
+		};
+		64A536B51E4A6F69006775CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext InstallerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-InstallerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kext Installer.app/Contents/MacOS/Kext Installer";
+			};
+			name = Release;
+		};
+		64A536B71E4A6F69006775CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext InstallerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-InstallerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kext Installer";
+			};
+			name = Debug;
+		};
+		64A536B81E4A6F69006775CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4ELDR2G96E;
+				INFOPLIST_FILE = "Kext InstallerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperimenti.daniele.Kext-InstallerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kext Installer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A536861E4A6F69006775CB /* Build configuration list for PBXProject "Kext Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A536AE1E4A6F69006775CB /* Debug */,
+				64A536AF1E4A6F69006775CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A536B01E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A536B11E4A6F69006775CB /* Debug */,
+				64A536B21E4A6F69006775CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A536B31E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A536B41E4A6F69006775CB /* Debug */,
+				64A536B51E4A6F69006775CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A536B61E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A536B71E4A6F69006775CB /* Debug */,
+				64A536B81E4A6F69006775CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A536831E4A6F69006775CB /* Project object */;
+}
