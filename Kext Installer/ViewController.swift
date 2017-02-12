@@ -6,6 +6,14 @@
 //  Copyright © 2017 Daniele. All rights reserved.
 //
 
+
+
+//******** Probabilmente ottimizzabile visto che è un primo programma in swift ********//
+
+
+
+
+
 import Cocoa
 
 class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
@@ -62,13 +70,13 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     
     //se un elemento è selezionato compie l'azione
     func tableViewSelectionDidChange(_ notification: Notification) {
-        //self.kextstable.selectedRow rappresenta l'indice dell'elemento selezionato (si può usare solo qua, quindi è meglio assegnare l'indice a una variabile globale in modo da randerla accessibile da ovunque
+        //self.kextstable.selectedRow rappresenta l'indice dell'elemento selezionato (si può usare solo qua, quindi è meglio assegnare l'indice a una variabile globale in modo da renderla accessibile da ovunque
         let selectedItem = self.elementiVista.object(at: self.kextstable.selectedRow) as! String
         print(selectedItem)
         if self.kextstable.selectedRow != -1{
             indice = self.kextstable.selectedRow
         }else{
-            print("Devi prima selezionare idiota")
+            print("Devi prima selezionare")
         }
         //self.kextstable.deselectRow(self.kextstable.selectedRow)
         
@@ -76,10 +84,9 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     
     @IBAction func rimuovi(_ sender: NSButton) {
         
-        //Ricarica la teableview aggiornata
-        self.kextstable.reloadData()
         self.elementiVista.removeObject(at: indice)
         self.elementiAzione.removeObject(at: indice)
+        //Ricarica la teableview aggiornata
         self.kextstable.reloadData()
         
     }
@@ -115,6 +122,7 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         self.kextstable.reloadData()
     }
     @IBAction func Installa(_ sender: NSButton) {
+        // per eseguire azioni come root uso gli applescript passando come password la stringa digitata su passwordField
         if installefi.state == NSOnState{
             NSAppleScript(source: "do shell script \"mkdir /Volumes/efi \" password \"\(passwordField.stringValue)\" with administrator " + "privileges")!.executeAndReturnError(nil)
             NSAppleScript(source: "do shell script \"mount -t msdos /dev/disk0s1 /Volumes/efi \" password \"\(passwordField.stringValue)\" with administrator " + "privileges")!.executeAndReturnError(nil)
