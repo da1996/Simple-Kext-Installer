@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647E914C1E4CE9A00058BE9F /* script in Resources */ = {isa = PBXBuildFile; fileRef = 647E914B1E4CE9A00058BE9F /* script */; };
 		64A5368F1E4A6F69006775CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A5368E1E4A6F69006775CB /* AppDelegate.swift */; };
 		64A536911E4A6F69006775CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A536901E4A6F69006775CB /* ViewController.swift */; };
 		64A536931E4A6F69006775CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A536921E4A6F69006775CB /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		647E914B1E4CE9A00058BE9F /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = script; sourceTree = "<group>"; };
 		64A5368B1E4A6F69006775CB /* Kext Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kext Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A5368E1E4A6F69006775CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64A536901E4A6F69006775CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		64A5368D1E4A6F69006775CB /* Kext Installer */ = {
 			isa = PBXGroup;
 			children = (
+				647E914B1E4CE9A00058BE9F /* script */,
 				64A5368E1E4A6F69006775CB /* AppDelegate.swift */,
 				64A536901E4A6F69006775CB /* ViewController.swift */,
 				64A536921E4A6F69006775CB /* Assets.xcassets */,
@@ -192,6 +195,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4ELDR2G96E;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					64A5369B1E4A6F69006775CB = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647E914C1E4CE9A00058BE9F /* script in Resources */,
 				64A536931E4A6F69006775CB /* Assets.xcassets in Resources */,
 				64A536961E4A6F69006775CB /* Main.storyboard in Resources */,
 			);
@@ -505,6 +517,7 @@
 				64A536B21E4A6F69006775CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64A536B31E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				64A536B51E4A6F69006775CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64A536B61E4A6F69006775CB /* Build configuration list for PBXNativeTarget "Kext InstallerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				64A536B81E4A6F69006775CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
